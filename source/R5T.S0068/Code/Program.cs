@@ -7,7 +7,9 @@ namespace R5T.S0068
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            //LibraryDescriptorScripts.Instance.Get_DefaultSolutionName();
+
+            SolutionDescriptorScripts.Instance.Get_DefaultProjectName();
         }
     }
 }
